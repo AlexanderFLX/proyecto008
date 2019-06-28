@@ -1,0 +1,14 @@
+<div>
+  <table border="1">
+    <tr>
+      <th>Código</th>
+      <th>Descripción</th>
+      <th>Precio</th>
+    </tr>
+    <tr *ngFor="let dato of datos">
+      <td>{{dato.codigo}}</td>
+      <td>{{dato.descripcion}}</td>
+      <td>{{dato.precio}}</td>
+    </tr>
+  </table>
+</div>
